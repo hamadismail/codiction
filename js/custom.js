@@ -138,15 +138,15 @@
 
 
 var slides = document.querySelectorAll('.slide');
-var btns = document.querySelectorAll('.btn');
+var btns = document.querySelectorAll('.sbtn');
 let currentSlide = 1;
 
 var manualNav = function(manual){
 	slides.forEach((slide) => {
 		slide.classList.remove('active');
 
-		btns.forEach((btn) => {
-			btn.classList.remove('active');
+		btns.forEach((sbtn) => {
+			sbtn.classList.remove('active');
 		});
 	});
 
@@ -156,8 +156,8 @@ var manualNav = function(manual){
 }
 
 
-btns.forEach((btn, i) => {
-	btn.addEventListener("click",() => {
+btns.forEach((sbtn, i) => {
+	sbtn.addEventListener("click",() => {
 		manualNav(i);
 		currentSlide = i;
 	});
