@@ -2466,6 +2466,36 @@ ul.main-menu-nav li.dropdown a i {
   .fa-google-plus-g {
   color: #e13928;
 }
+
+.footer-section-1x
+  .footer-top
+  .footer-top-right
+  .footer-social-link
+  ul
+  .fa-youtube {
+  color: #FF0000;
+}
+
+.footer-section-1x
+  .footer-top
+  .footer-top-right
+  .footer-social-link
+  ul
+  .fa-linkedin {
+  color: #0072b1;
+}
+
+.footer-section-1x
+  .footer-top
+  .footer-top-right
+  .footer-social-link
+  ul
+  .fa-envelope {
+  color: #DB4437;
+}
+
+
+
 .footer-section-1x .footer-bottom {
   padding: 45px 0;
   border-top: 1px solid #f1f1f1;
