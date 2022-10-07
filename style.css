@@ -3200,6 +3200,107 @@ ul.main-menu-nav li.dropdown a i {
   padding: 0;
 }
 
+
+
+
+
+
+
+
+.acontainer{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	transition: all .2s linear;
+	/* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  background: #fff;
+}
+
+.acontainer .acard{
+  display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.acontainer h1{
+	font-size: 32px;
+	color: #454545;
+	text-align: center;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.acontainer h1 span{
+  color:#02b3e4;
+}
+
+.acontainer .acard .card{
+	height: 500px;
+	width: 290px;
+	margin: 20px;
+	box-shadow: 0 3px 5px #f0f0f0;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	background-color: #fff;
+}
+
+.acontainer .acard .card .bg-image img{
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+	clip-path: polygon(0 0, 100% 0, 100% 70%, 45% 100%, 0 70%);
+}
+
+.acontainer .acard .card .pic img{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border: 10px solid #f0f0f0;
+	margin-top: -90px;
+	position: relative;
+}
+
+.acontainer .acard .card .info h3{
+	color: #222;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.acontainer .acard .card .info span{
+	font-size: 15px;
+	color: #02b3e4;
+}
+
+.acontainer .acard .card .info p{
+	font-size: 13px;
+	padding: 10px 20px;
+	color: #000;
+}
+
+.acontainer .acard .card .info .icons a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #02b3e4;
+	margin-top: 50px;
+	padding: 0 5px;
+}
+
+.acontainer .acard .card .info .icons a:hover{
+	color: #21293e;
+}
+
+
+
+
+
+
+
+
+
+
 /************************************************
             Speaker Section 
 *************************************************/
